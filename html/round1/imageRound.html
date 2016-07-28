@@ -1,0 +1,29 @@
+<div class="row">
+	<div class="page-header col-md-8">
+		<h1 class="text-left"> <strong>  Online Coding Multiple Choice Questions <strong> </h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12"> 
+		<h3 class="text-center"> <strong> Multiple Choice Question Number {{questions.questionNumber}} </strong> </h3>
+		<input type="text " style="visibility:hidden" ng-model="current"> 
+	</div>
+</div>
+<div class="row">
+
+	<div class=" col-md-8 pull-right">
+		<img class="img-responsive img-thumbnail center" src="images/{{questions.pic}}"   style="height:200px;width:500px">
+	</div>
+</div>
+<div class="row">
+
+	<div class="col-md-8 col-md-offset-3">
+		<h3> <strong> Options</strong> </h3> 
+			<h3> <input type="radio"  ng-model="answer" value="a" name="options"   > {{questions.a}}
+			<br><input type="radio" ng-model="answer" value="b"   name="options"  > {{questions.b}}<br>
+			<input type="radio" ng-model="answer" value="c"    name="options"> {{questions.c}}<br>
+			<input type="radio" ng-model="answer" value="d"   name="options"> {{questions.d}} </h3>
+			
+			<input type="button" ng-hide="ajax" ng-click="getQuestions(questions.questionNumber,answer)" class="btn btn-success btn-md" value="Next Question">
+	</div>
+</div>	

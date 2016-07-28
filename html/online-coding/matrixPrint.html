@@ -1,0 +1,59 @@
+<div class="container ">
+	<div class="row">
+		<div class="page-header col-md-12 ">
+			<h1> Online Coding Question Number 2  </h1>
+		</div>	
+	</div>
+	<div class="row">
+		<h1> <strong> Spiral Matrix  </strong> </h1>
+		
+	</div>
+
+	<h3> <strong> Problem Statement </strong> </h3>
+	<div class="col-md-12" style="font-size:20px">
+			Print the given matrix in spiral format starting from the leftmost bottom element.
+	<div class="row">
+		<h3> <strong> Input Format </strong></h3>
+		The first line of the input indicates number of rows and columns in the matrix.
+
+	<br>
+	<h3> <strong> Output Format </strong></h3>
+	Print the Matrix in Spiral Format starting from the leftmost bottom element. 
+	<br>
+	
+
+	<h3> <strong> Sample Input </strong> </h3>
+	<div class="well">
+		4 4 <br>
+1 2 3 4 <br>
+5 6 7 8 <br>
+9 3 2 1 <br>
+5 4 3 2 <br>
+	</div><br>
+	<h3> <strong> Sample Output </strong> </h3>
+	<div class="well">
+		5 4 3 2 1 8 4 3 2 1 5 9 3 2 7 6
+	</div>
+	<form >
+	
+	<code-box>
+	  </code-box>
+	<input type="button" ng-click="submitAnswer('2',selected,code)" class="btn btn-md  btn-success pull-right" value="Submit">
+<br><br> Result :
+	<div class="well">
+		{{result}}
+		<ul>
+			<li ng-repeat="case in testcase">
+		 Testcase {{$index+1}} {{case}}
+
+		 	</li>
+		 </ul>
+		<a ng-click="redirect()" > <button ng-show="finish" class="btn btn-md btn-success"> Next Question </button> </a>
+	</div> 
+
+	</form>
+	</div>
+	</div>
+
+
+</div>

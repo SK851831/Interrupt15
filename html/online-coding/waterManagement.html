@@ -1,0 +1,148 @@
+<div class="container ">
+	<div class="row">
+		<div class="page-header col-md-12 ">
+			<h1> Online Coding Question Number 3  </h1>
+		</div>	
+	</div>
+	<div class="row">
+		<h1> <strong> Water Management  </strong> </h1>
+		
+	</div>
+
+	<h3> <strong> Problem Statement </strong> </h3>
+	<div class="col-md-12" style="font-size:20px">
+			There are N tubs of water, numbered from 1 to N. Initially there is a few litres of water in each tub. Each water tub has 2 taps attached to it. Incoming Tap with speed x litres / second and Outgoing Tap with speed y litres / second.
+			Let water(i) denote the final volume of water in ith  tub. <br>  
+
+	Amit wants to attain such a situation that  water(i) < water(i+1)  for 1<=i <=N. i.e. water in each tub must be less than water in the tub next to it. He wants to do this as quickly as possible.  <br>
+
+	You task is to find out and tell Amit, what is the minimum number of seconds required to attain in this situation.  
+	<div class="row">
+		<h3> <strong> Input Format </strong></h3>
+		First line will contains the number of tubs, denoted by N  
+Next N lines contain a tuple with 3 integers delimited by white space. The tuple contents are
+Wi  - volume of water present initially in ith  tub (in litres)
+x - speed of incoming tap of ith  tub ( in litres/second)
+y - speed of outgoing tap of ith  tub ( in litres/second)
+	<br>
+	<h3> <strong> Output Format </strong></h3>
+	Minimum time in seconds, needed to arrange water in N tubs, in ascending order of volume.  
+	<br>
+	<h3> <strong> Constraints  </strong> </h3>
+	2 <= N <= 100000
+0 <= W <= 1000000000 (1 billion) for each tub
+1 <= x <= 10000 for each tub
+1 <= y <= 10000 for each tub
+A tap can be used only for integral number of seconds i.e. you cannot use a tap for 0.3 or 0.5 seconds. It can be used either for 1,2,3.... Seconds
+Capacity of each tub is infinite.
+Volume of water in any tub cannot be less than zero at any point of time.
+Any number of taps can be turned on or off simultaneously.
+
+	<h3> <strong> Sample Input 1 </strong> </h3>
+	<div class="well">
+		3 <br>
+2 3 3<br>
+3 4 5<br>
+3 5 5<br>
+	</div><br>
+	<h3> <strong> Sample Output 1 </strong> </h3>
+	<div class="well">
+		1
+	</div>
+	<h3> <strong> Sample Input 2 </strong> </h3>
+	<div class="well">
+	3<br>
+6 2 1<br>
+4 1 3<br>
+4 1 4<br>
+	</div><br>
+	<h3> <strong> Sample Output 2 </strong> </h3>
+	<div class="well">
+		2
+	</div>
+	<h3> <strong> Explanation for Sample Input and Output 1 </strong> </h3>
+		Here we have 3 tubs with following information about each of them <br> 
+		<table class=" table table-bordered ">
+			<tr> 
+				<th> Tub Number </th> 
+				<th> Initial Volume </th>
+				<th> Incoming tap Speed </th>
+				<th> Outgoing Tap Speed </th>
+			</tr>
+			<tr>
+				<td>  Tub 1 </td>
+				<td> 2 </td>
+				<td> 3 </td>
+				<td> 3 </td>
+			</tr>
+			<tr>
+				<td>  Tub 2 </td>
+				<td> 3 </td>
+				<td> 4 </td>
+				<td> 5 </td>
+			</tr>
+			<tr>
+				<td>  Tub 3 </td>
+				<td> 3 </td>
+				<td> 5 </td>
+				<td> 5 </td>
+			</tr>
+		</table> <br>
+		Initially tub 2 and 3 have same volume of water. So he will just turn on the Incoming Tap at Tub 3 for one second. After one second the water in 3rd tub will be 8 litres. Since 2 < 3 < 8, the answer is 1 second.  <br>
+		<h3> <strong> Explanation for Sample Input and Output 1 </strong> </h3>
+		Here we have 3 tubs with following information about each of them <br> 
+		<table class=" table table-bordered ">
+			<tr> 
+				<th> Tub Number </th> 
+				<th> Initial Volume </th>
+				<th> Incoming tap Speed </th>
+				<th> Outgoing Tap Speed </th>
+			</tr>
+			<tr>
+				<td>  Tub 1 </td>
+				<td> 6 </td>
+				<td> 2 </td>
+				<td> 1 </td>
+			</tr>
+			<tr>
+				<td>  Tub 2 </td>
+				<td> 4 </td>
+				<td> 1 </td>
+				<td> 3 </td>
+			</tr>
+			<tr>
+				<td>  Tub 3 </td>
+				<td> 4 </td>
+				<td> 1 </td>
+				<td> 4 </td>
+			</tr>
+		</table> <br>
+		As we can see that it is impossible to do the task in one second. But it can be done in two second as below.  
+
+Turn on the outgoing tap at tub 1. So after two seconds water level will reduce to 4 litres.  
+Turn on the incoming tap at tub 2 only for one second. So water level will be 5 litres.  
+Turn on the incoming tap at tub 3 for two seconds. So water level will be 6 litres.  
+
+Since 4 < 5 < 6, the answer is 2 seconds.  
+	<form >
+	
+	<code-box>
+	  </code-box>
+	<input type="button" ng-click="submitAnswer('3',selected,code)" class="btn btn-md  btn-success pull-right" value="Submit">
+<br><br> Result :
+	<div class="well">
+		{{result}}
+		<ul>
+		<li ng-repeat="case in testcase">
+		 Testcase {{$index+1}} {{case}}
+		 </li>
+		</ul>
+		<a ng-click="redirect()" > <button ng-show="finish" class="btn btn-md btn-success"> Next Question </button> </a>
+	</div> 
+
+	</form>
+	</div>
+	</div>
+
+
+</div>

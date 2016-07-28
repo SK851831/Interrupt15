@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang16393{\fonttbl{\f0\froman\fprq2\fcharset0 Verdana;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fnil\fcharset0 Courier New;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red149\green0\blue0;\red28\green28\blue28;\red56\green56\blue56;\red0\green0\blue10;}
+{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
+\pard\nowidctlpar\sb28\sa100\sl100\slmult0\cf1\b\f0\fs21\lang1023 Problem : Water Management\cf0\b0\f1\fs24\par
+
+\pard\nowidctlpar\sb28\sa240\sl231\slmult0\cf2\f0\fs17 There are N tubs of water, numbered from 1 to N. Initially there is a few litres of water in each tub. Each water tub has 2 taps attached to it. Incoming Tap with speed x litres / second and Outgoing Tap with speed y litres / second.\~ \line\line Let water(i) denote the final volume of water in i\up10 th\up0\~ tub.\~ \line\line Amit wants to attain such a situation that\~ water(i) < water(i+1)\~ for 1<=i <=N. i.e. water in each tub must be less than water in the tub next to it. He wants to do this as quickly as possible.\~ \line\line You task is to find out and tell Amit, what is the minimum number of seconds required to attain in this situation.\~ \cf0\f1\fs24\par
+
+\pard\nowidctlpar\sb28\sa100\sl231\slmult0\cf2\b\f0\fs17 Input Format:\b0\~ \line\line First line will contains the number of tubs, denoted by N\~ \line Next N lines contain a tuple with 3 integers delimited by white space. The tuple contents are\cf0\f1\fs24\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li720\sb28\sa100\sl100\slmult0\cf3\f0\fs18 W\dn10 i\up0\~ - volume of water present initially in i\up10 th\up0\~ tub (in litres)\cf0\f1\fs24\par
+{\pntext\f3\'B7\tab}\cf3\f0\fs18 x - speed of incoming tap of i\up10 th\up0\~ tub ( in litres/second)\cf0\f1\fs24\par
+{\pntext\f3\'B7\tab}\cf3\f0\fs18 y - speed of outgoing tap of i\up10 th\up0\~ tub ( in litres/second)\cf0\f1\fs24\par
+
+\pard\nowidctlpar\sl100\slmult0\cf3\f0\fs18\line\line\cf0\f1\fs24\par
+
+\pard\nowidctlpar\sb28\sa240\sl231\slmult0\cf2\b\f0\fs17 Output Format:\b0\~ \line\line Minimum time in seconds, needed to arrange water in N tubs, in ascending order of volume.\~ \cf0\f1\fs24\par
+
+\pard\nowidctlpar\sb28\sl231\slmult0\cf2\b\f0\fs17 Constraints:\cf0\b0\f1\fs24\par
+
+\pard\nowidctlpar\sb28\sa100\sl231\slmult0\cf2\b\f0\fs17 2 <= N <= 100000\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 0 <= W <= 1000000000 (1 billion) for each tub\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 1 <= x <= 10000 for each tub\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 1 <= y <= 10000 for each tub\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 A tap can be used only for integral number of seconds i.e. you cannot use a tap for 0.3 or 0.5 seconds. It can be used either for 1,2,3.... Seconds\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 Capacity of each tub is infinite.\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 Volume of water in any tub cannot be less than zero at any point of time.\cf0\b0\f1\fs24\par
+\cf2\b\f0\fs17 Any number of taps can be turned on or off simultaneously.\cf0\b0\f1\fs24\par
+
+\pard\nowidctlpar\sl100\slmult0\cf3\f0\fs18\line\cf0\f1\fs24\par
+
+\pard\nowidctlpar\sa240\sl100\slmult0\b Sample Input and Output\b0\par
+\trowd\trgaph10\trleft-40\trrh300\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1785\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx5665\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx9090 
+\pard\intbl\nowidctlpar\sl100\slmult0\qc\b SNo.\b0\cell\b Input\b0\cell\b Output\b0\cell\row\trowd\trgaph10\trleft-40\trrh1530\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1785\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx5665\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx9090 
+\pard\intbl\nowidctlpar\sl100\slmult0 1\cell\line 3\line 2 3 3\line 3 4 5\line 3 5 5\cell\line 1\cell\row\trowd\trgaph10\trleft-40\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1785\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx5665\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx9090 
+\pard\intbl\nowidctlpar\sl100\slmult0 2\cell\line 3\line 6 2 1\line 4 1 3\line 4 1 4\cell\line 2\cell\row 
+\pard\nowidctlpar\sa240\sl100\slmult0\par
+
+\pard\nowidctlpar\sb28\sa240\sl231\slmult0\cf2\b\fs17 Explanation for sample input and output 1:\b0\~ \line\line Here we have 3 tubs with following information about each of them\~ \cf0\fs24\par
+\trowd\trgaph10\trqc\trrh300\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx770\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1575\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2730\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4975 
+\pard\intbl\nowidctlpar\sl100\slmult0\qc\b Tub Number\b0\cell\b Initial Volume\b0\cell\b Incoming Tap speed\b0\cell\b Outgoing Tap speed\b0\cell\row\trowd\trgaph10\trqc\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx770\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1575\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2730\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4975 
+\pard\intbl\nowidctlpar\sl100\slmult0\line Tub 1\cell\line 2\cell\line 3\cell\line 3\cell\row\trowd\trgaph10\trqc\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx770\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1575\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2730\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4975 
+\pard\intbl\nowidctlpar\sl100\slmult0\line Tub 2\cell\line 3\cell\line 4\cell\line 5\cell\row\trowd\trgaph10\trqc\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx770\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1575\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2730\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4975 
+\pard\intbl\nowidctlpar\sl100\slmult0\line Tub 3\cell\line 3\cell\line 5\cell\line 5\cell\row 
+\pard\nowidctlpar\sa240\sl100\slmult0\line\line Initially tub 2 and 3 have same volume of water. So he will just turn on the Incoming Tap at Tub 3 for one second. After one second the water in 3rd tub will be 8 litres. Since 2 < 3 < 8, the answer is 1 second.\~ \par
+
+\pard\nowidctlpar\sb28\sa240\sl231\slmult0\cf2\b\fs17 Explanation for sample input and output 2:\b0\~ \line\line Here we have 3 tubs with following information about each of them\~ \cf0\fs24\par
+\trowd\trgaph10\trqc\trrh300\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1880\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2080\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4250\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx6990 
+\pard\intbl\nowidctlpar\sl100\slmult0\qc\b Tub Number\b0\cell\b Initial Volume\b0\cell\b Incoming Tap speed\b0\cell\b Outgoing Tap speed\b0\cell\row\trowd\trgaph10\trqc\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1880\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2080\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4250\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx6990 
+\pard\intbl\nowidctlpar\sl100\slmult0\line Tub 1\cell\line 6\cell\line 2\cell\line 1\cell\row\trowd\trgaph10\trqc\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1880\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2080\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4250\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx6990 
+\pard\intbl\nowidctlpar\sl100\slmult0\line Tub 2\cell\line 4\cell\line 1\cell\line 3\cell\row\trowd\trgaph10\trqc\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx1880\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx2080\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx4250\clvertalc\clbrdrl\brdrw15\brdrs\brdrcf4\clbrdrt\brdrw15\brdrs\brdrcf4\clbrdrr\brdrw15\brdrs\brdrcf4\clbrdrb\brdrw15\brdrs\brdrcf4 \cellx6990 
+\pard\intbl\nowidctlpar\sl100\slmult0\line Tub 3\cell\line 4\cell\line 1\cell\line 4\cell\row 
+\pard\nowidctlpar\line\line As we can see that it is impossible to do the task in one second. But it can be done in two second as below.\~ \line\line Turn on the outgoing tap at tub 1. So after two seconds water level will reduce to 4 litres.\~ \line Turn on the incoming tap at tub 2 only for one second. So water level will be 5 litres.\~ \line Turn on the incoming tap at tub 3 for two seconds. So water level will be 6 litres.\~ \line\line Since 4 < 5 < 6, the answer is 2 seconds.\~ \par
+
+\pard\f2\fs22\lang16393\par
+}
+ 

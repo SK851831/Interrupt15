@@ -1,0 +1,10 @@
+
+ Size of Matrix:
+  Enter Matrix Elements:
+    Element [0][0] :    Element [0][1] :
+    Element [1][0] :    Element [1][1] :
+
+ the given Matrix is :
+   2   5
+   6   7
+output of helical traverse matrix is:

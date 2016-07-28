@@ -1,0 +1,22 @@
+.panel-body {
+	border-top-left-radius: 0px; 
+ border-top-right-radius: 0px; 
+
+	padding:0px;
+	padding-bottom:0px;
+}
+.panel {
+	margin-bottom:0px;
+	border-radius:0px;
+}
+.navbar{
+	background-color:#009688;
+	color:white !important;
+	border-radius: 0px !important;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-variant: normal;
+
+}

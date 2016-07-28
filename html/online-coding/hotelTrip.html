@@ -1,0 +1,116 @@
+<div class="container ">
+	<div class="row">
+		<div class="page-header col-md-12 ">
+			<h1> Online Coding Question Number 5  </h1>
+		</div>	
+	</div>
+	<div class="row">
+		<h1> <strong> Hotel trip  </strong> </h1>
+		
+	</div>
+
+	<h3> <strong> Problem Statement </strong> </h3>
+	<div class="col-md-12" style="font-size:20px">
+		Tom, Dick and Harry go to a restaurant. Each of them has a certain amount of money. When their monies are pooled they discover they have S Rs. Next, they start going through the menu card to choose items they would like to order.  
+
+Your task is to help them find out how many different menu item combinations they can order. Since there can be many menu items with the same price, we are interested only in unique price combinations. Refer output specifications and examples to get a better understanding.  
+	<div class="row">
+		<h3> <strong> Input Format </strong></h3>
+		First line contains the value for N(number of menu items).
+Second line contains N positive integers delimited by space, corresponding to prices of N menu items  
+Third line contains an integer S corresponding to the amount of money pooled between them  
+	<br>
+	<h3> <strong> Output Format </strong></h3>
+	<ol>	
+		<li>Print all possible combinations of item prices whose sum is equal to S. Enclose each such combination in square brackets [ ]. Elements should be separated by, followed by a space character. </li>
+		<li>	Item price combinations must be unique (See example 2 to understand this better) </li>
+		<li> If more than one combinations exists, then the print order should be as follows  
+			<li> Combinations should be printed in descending order item prices </li>
+			<li> Two combinations can be differentiated by first comparing their costliest, followed by second costliest, and followed by the next costliest item, so on and so forth. Refer example outputs for better understanding of print order. </li>
+		</li>
+	</ol>
+	<br>
+	<h3> <strong> Constraints  </strong> </h3>
+	Pi  > 0 ; where i = 1 to N and Pi denotes the price of the ith  item <br>
+S > 0
+
+	<h3> <strong> Sample Input </strong> </h3>
+	<div class="well">
+		7 <br>
+10 7 6 5 3 2 1 <br>
+23
+	</div><br>
+	<h3> <strong> Sample Output </strong> </h3>
+	<div class="well">
+		
+[10, 7, 6] <br>
+[10, 7, 5, 1]<br>
+[10, 7, 3, 2, 1]<br>
+[10, 6, 5, 2]<br>
+[7, 6, 5, 3, 2]<br>
+
+	</div>
+	<h3> <strong> Sample Input 2 </strong> </h3>
+	<div class="well">
+		7 <br>
+7 <br>
+50 100 1 1 1 1 1 <br>
+51
+	</div><br>
+	<h3> <strong> Sample Output 2 </strong> </h3>
+	<div class="well">
+		
+[50, 1]
+	</div>
+	<h3> <strong> Sample Input 3 </strong> </h3>
+	<div class="well">
+		
+8<br>
+50 100 4 3 1 1 1 1 <br>
+54
+	</div><br>
+	<h3> <strong> Sample Output 3 </strong> </h3>
+	<div class="well">
+		
+[50, 4] <br>
+[50, 3, 1] <br>
+[50, 1, 1, 1, 1]
+	</div>
+
+	<h3> <strong> Explanation </strong> </h3>
+	In example 1 there are 7 items on the menu each having a fixed price. Tom, Dick and Harry have 23 Rs/- amongst them. So they can order the following combinations  <br>
+ 1.	[10, 7, 6] <br>
+ 2.	[10, 7, 5, 1] <br>
+ 3.	[10, 7, 3, 2, 1] <br>
+ 4.	[10, 6, 5, 2]<br>
+ 5.	[7, 6, 5, 3, 2]<br>
+Note how the items are sorted in descending order within a combination. Also note how the combinations themselves are too sorted in descending order.  <br>
+
+In example 2 there are 7 items. 5 of these 7 items have the same price. Tom, Dick and Harry have 51 Rs/- amongst them. So the only unique price combination they can order is [50, 1]  
+ <br>
+In example 3 there are 8 items. 4 of these 8 items have the same price. Tom, Dick and Harry have 54 Rs/- amongst them. So they can form the following combinations. <br>  
+ 1.	[50, 4] <br>
+ 2.	[50, 3, 1] <br>
+ 3.	[50, 1, 1, 1, 1] <br>
+ Again, note how the items are sorted in descending order within a combination. Also note how the combinations themselves are too sorted in descending order. Also combinations 2 and 3 are printed only once.  
+	<form >
+	
+	<code-box>
+	  </code-box>
+	<input type="button" ng-click="submitAnswer('5',selected,code)" class="btn btn-md  btn-success pull-right" value="Submit">
+<br><br> Result :
+	<div class="well">
+		{{result}}
+		<ul>
+		<li ng-repeat="case in testcase">
+		 Testcase {{$index+1}} {{case}}
+		 </li>
+		 </ul>
+	</div> 
+
+	</form>
+	</div>
+	</div>
+
+
+</div>	

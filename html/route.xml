@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string-array name="college_names">
+        <item>100 ft Road</item>
+        <item>100ft Road</item>
+        <item>12th Main Road</item>
+        <item>13th Main Road</item>
+        <item>Aavichi</item>
+        <item>Adyar</item>
+        <item>Adyar depot</item>
+        <item>Adyar signal</item>
+        <item>Agaram</item>
+        <item>Air Tel office</item>
+        <item>Ajantha</item>
+        <item>Alwarpet</item>
+        <item>Ambattur</item>
+        <item>Ambattur Telephone exchange</item>
+        <item>Aminjikarai</item>
+        <item>Aminjikkarai</item>
+        <item>Anakaputhur</item>
+        <item>Anna Nagar - Rountana</item>
+        <item>Anna Nagar-Rountana</item>
+        <item>Anna Nagar West</item>
+        <item>Anna Nagar-West Depot</item>
+        <item>Anna University</item>
+        <item>Arumbakkam</item>
+        <item>Ashok Pillar</item>
+        <item>Attu Thotti</item>
+        <item>Avadi</item>
+        <item>Avichi</item>
+        <item>Ayanavaram ESI</item>
+        <item>Ayodhya Manadapam</item>
+        <item>Ayodhya Mandapam</item>
+        <item>Ayyapan koil</item>
+        <item>Ayyapanthangal</item>
+        <item>Ayyappan thangal</item>
+        <item>Bazullah Road</item>
+        <item>Beach station</item>
+        <item>Blue star</item>
+        <item>Blue Star</item>
+        <item>Camp road</item>
+        <item>Central</item>
+        <item>Chetpet</item>
+        <item>Chevvapet</item>
+        <item>Chinmaya Nagar</item>
+        <item>Chintamani</item>
+        <item>Chinthamani</item>
+        <item>Chrompet</item>
+        <item>CIT</item>
+        <item>CIT Nagar</item>
+        <item>Collector Nagar</item>
+        <item>Collector Office</item>
+        <item>Dasaprakash</item>
+        <item>Dinathanthi</item>
+        <item>DMS</item>
+        <item>Doveton</item>
+        <item>Duraisamy Subway</item>
+        <item>East Tambaram</item>
+        <item>Eratteri</item>
+        <item>Ethiraj College</item>
+        <item>Golden Flats</item>
+        <item>Govt Hospital</item>
+        <item>Guduvanchery</item>
+        <item>Guindy</item>
+        <item>Habibullah Road</item>
+        <item>Highcourt</item>
+        <item>Hotel Park Sheraton</item>
+        <item>ICF</item>
+        <item>IIT</item>
+        <item>Indira Nagar</item>
+        <item>Iyyappan thangal</item>
+        <item>Jaya College</item>
+        <item>Jayanthi</item>
+        <item>K4 Station</item>
+        <item>Kaladipet</item>
+        <item>Kalliappa</item>
+        <item>Kancheepuram Main Bus Stand</item>
+        <item>Kancheepuram New Railway Station</item>
+        <item>Kasi Theatre</item>
+        <item>Kathipara</item>
+        <item>Kathipara Junction</item>
+        <item>Kattupakkam</item>
+        <item>Kellys</item>
+        <item>Kellys-Nagappa motors</item>
+        <item>Kilkattalai</item>
+        <item>Kilpauk</item>
+        <item>Kishkintha</item>
+        <item>KK Nagar</item>
+        <item>KMC</item>
+        <item>Kodambakkam Power House</item>
+        <item>Kodasmbakkam Power House</item>
+        <item>Kolathur</item>
+        <item>Korattur</item>
+        <item>Kotturpuram</item>
+        <item>Kovilambakkam</item>
+        <item>Koyambedu</item>
+        <item>Koyambedu rountana</item>
+        <item>Koyambedu Rountana</item>
+        <item>Koyambedu Rountana	</item>
+        <item>Koyembedu</item>
+        <item>Krishnanagar</item>
+        <item>Krishna Nagar</item>
+        <item>Kumanan chaavadi</item>
+        <item>Kumanan chavadi</item>
+        <item>Kundrathur</item>
+        <item>liberty</item>
+        <item>Liberty</item>
+        <item>Little mount</item>
+        <item>Little Mount</item>
+        <item>Lloyds Road</item>
+        <item>Loyola</item>
+        <item>Loyola college</item>
+        <item>Lucas Bridge</item>
+        <item>Lucas TVS</item>
+        <item>Luz signal</item>
+        <item>Maduravoyal</item>
+        <item>Maduravoyil</item>
+        <item>Maduravoyil Bridge</item>
+        <item>Mahalingapuram</item>
+        <item>Maharani theatre</item>
+        <item>Manavalanagar</item>
+        <item>Mandaveli</item>
+        <item>Mandaveli BS</item>
+        <item>Mangadu</item>
+        <item>Medavakkam Koot Road</item>
+        <item>Medavakkam Tank</item>
+        <item>Meenakshi Hospital</item>
+        <item>MEPZ</item>
+        <item>Metha Nagar</item>
+        <item>Mettu Street</item>
+        <item>Milk Canteen (B C mill back gate)</item>
+        <item>Mint</item>
+        <item>MLM</item>
+        <item>MMC</item>
+        <item>Moolakadai</item>
+        <item>Moongil Mandapam (Onward) / Rangasamy Kulam (Return)</item>
+        <item>Mugalivakkam</item>
+        <item>Mugappair - 7H bus stop</item>
+        <item>Mugappair West</item>
+        <item>Music Academy</item>
+        <item>Mylapore Tank</item>
+        <item>Nadha muni Theatre</item>
+        <item>Nanganallur</item>
+        <item>Nazarathpet</item>
+        <item>Nazarathpet(this route will exist only from Tuesday to Friday)</item>
+        <item>Nazarthpet</item>
+        <item>Nerkundram</item>
+        <item>New Avadi Road</item>
+        <item>Nolambur Police Station</item>
+        <item>NSKNagar</item>
+        <item>NSK Nagar</item>
+        <item>Nungambakkam</item>
+        <item>Oil Mill</item>
+        <item>Oil mill stop</item>
+        <item>Opel Astra</item>
+        <item>Otteri</item>
+        <item>Pallavaram</item>
+        <item>Pammal</item>
+        <item>Panagal park</item>
+        <item>Pandicherry Guest House</item>
+        <item>Park Sheraton</item>
+        <item>Perambur Bus Stand</item>
+        <item>Periyar Nagar</item>
+        <item>Perungalathur</item>
+        <item>Pondicherry Guest house</item>
+        <item>Pondicherry Guest House</item>
+        <item>Pondy bazaar</item>
+        <item>Poonamalee</item>
+        <item>Poonamalle</item>
+        <item>Poonamallee</item>
+        <item>Poonamallee Bye pass</item>
+        <item>Porur</item>
+        <item>PT Rajan road</item>
+        <item>PT Rajan Road </item>
+        <item>Putlur Koot Road</item>
+        <item>Ramapuram</item>
+        <item>Ramarathana Theatre</item>
+        <item>Retteri</item>
+        <item>Royapetah</item>
+        <item>Royapuram</item>
+        <item>SAF</item>
+        <item>Safire</item>
+        <item>Saidapet</item>
+        <item>Sakthi Nagar</item>
+        <item>Sankara Mutt</item>
+        <item>Santhavelur</item>
+        <item>Saravana Bhavan Hotel</item>
+        <item>Senthil Nagar</item>
+        <item>SIET</item>
+        <item>Somanagalam</item>
+        <item>Somangalam</item>
+        <item>SRP Tools</item>
+        <item>Sterlingroad</item>
+        <item>St.Thomas mount</item>
+        <item>SVCE</item>
+        <item>Swagath</item>
+        <item>Tambaram</item>
+        <item>Taramani</item>
+        <item>TaylorsRoad</item>
+        <item>Taylors Road</item>
+        <item>Theradi</item>
+        <item>Thirumangalam</item>
+        <item>Thirumangalam Signal</item>
+        <item>Thirumazhisai</item>
+        <item>Thirumullaivoyal</item>
+        <item>Thiruninravur Bridge</item>
+        <item>Thiruvallur Court-petrol bunk</item>
+        <item>Thiruverkadu</item>
+        <item>Tirumangalam</item>
+        <item>Tirumangalam signal</item>
+        <item>Toll gate</item>
+        <item>Tondairpet</item>
+        <item>Trident</item>
+        <item>TVK Nagar</item>
+        <item>TVK Park</item>
+        <item>Urapakkam</item>
+        <item>Vadapalani</item>
+        <item>Valasaravakakm</item>
+        <item>Valasaravakkam</item>
+        <item>Valasarawakkam</item>
+        <item>Vanagaram</item>
+        <item>Vanagaram Vellappanchavadi</item>
+        <item>Vandalur</item>
+        <item>Vannanthurai</item>
+        <item>Vanuvampet</item>
+        <item>Vanuvampettai</item>
+        <item>Varadharaja perumal koil</item>
+        <item>Velappanchavadi</item>
+        <item>Veppampattu</item>
+        <item>Vijaya Nagar</item>
+        <item>Villivakkam</item>
+        <item>Virugambakkam</item>
+        <item>Virugambakkam Kesavarthini</item>
+        <item>Vivek  Co</item>
+        <item>Vyasabadi Jeeva</item>
+        <item>Walltax road</item>
+        <item>Waves</item>
+        <item>Waves (TNEB)</item>
+        <item>Wavin</item>
+        <item>West Depot</item>
+    </string-array>
